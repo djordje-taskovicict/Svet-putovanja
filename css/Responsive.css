@@ -3,14 +3,20 @@
         font-size: 35px;
     }
 
-    .carousel-caption slajder-tekst {
+    .carousel-caption p slajder-tekst {
         font-size: 10px;
     }
 
 }
 
 @media screen and (max-width: 1199px) {
+    .carousel-caption h3 {
+        font-size: 20px;
+    }
 
+    .carousel-caption p slajder-tekst {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -18,8 +24,8 @@
         font-size: 20px;
     }
 
-    .carousel-caption slajder-tekst {
-        font-size: 10px;
+    .carousel-caption p slajder-tekst {
+        font-size: 4px;
     }
     .autor-slika {
         width: 17rem;
@@ -34,12 +40,12 @@
     }
 }
 
-@media screen and (max-width: 767px) {
-    .carousel-caption sajder-glavno {
-        font-size: 10px;
+@media screen and (max-width: 500px) {
+    .carousel-caption h3 {
+        font-size: 18px;
     }
 
-    .carousel-caption slajder-tekst {
+    .carousel-caption p slajder-tekst {
         font-size: 5px;
     }
     .autor-slika {
