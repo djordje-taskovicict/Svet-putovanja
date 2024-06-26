@@ -35,6 +35,13 @@
 }
 
 @media screen and (max-width: 767px) {
+    .carousel-caption sajder-glavno {
+        font-size: 10px;
+    }
+
+    .carousel-caption slajder-tekst {
+        font-size: 5px;
+    }
     .autor-slika {
         width: 15rem;
         height: 15rem;
