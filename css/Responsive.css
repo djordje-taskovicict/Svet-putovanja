@@ -1,0 +1,44 @@
+﻿@media screen and (max-width: 1654px) {
+    .carousel-caption h3 {
+        font-size: 35px;
+    }
+
+    .carousel-caption slajder-tekst {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+
+}
+
+@media screen and (max-width: 991px) {
+    .carousel-caption h3 {
+        font-size: 20px;
+    }
+
+    .carousel-caption slajder-tekst {
+        font-size: 10px;
+    }
+    .autor-slika {
+        width: 17rem;
+        height: 18rem;
+    }
+    .slike-ag {
+        width: 16rem;
+        height: 16rem;
+    }
+    .tekst-ag {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .autor-slika {
+        width: 15rem;
+        height: 15rem;
+    }
+
+}
+
