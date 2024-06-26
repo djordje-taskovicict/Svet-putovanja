@@ -16,7 +16,9 @@
 .carousel-item {
     position: relative;
 }
-
+.autor-slika{
+    object-fit:cover;
+}
 .zatamni {
     position: absolute;
     top: 0;

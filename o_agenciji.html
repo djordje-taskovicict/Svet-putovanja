@@ -68,7 +68,7 @@
               <h1 class="m-3 text-center fw-bold">Kontakt</h1>
               <h5 class="m-3 text-center fst-italic text-info">Kontaktirajte nas</h5>
               <div class="d-flex justify-content-center">
-                  <div class="col-md-12">
+                  <div class="row col-md-6 col-sm-5">
                       <div class="row text-center">
                           <h3 class="p-3 fst-italic">Lokacija</h3>
                           <P>Zdravka čelara 16</P>
@@ -82,29 +82,31 @@
                           <P><b>svetputovanja@gmail.com</b></P>
                       </div>
                   </div>
+                  <div class="col-md-6 col-md-7">
+                      <form>
+                          <div class="row text-center m-4">
+                              <div class="form-group col-md-6">
+                                  <label for="name">Ime i prezime</label>
+                                  <input type="text" class="form-control w-100" id="name" placeholder="Unesite ime i prezime">
+                              </div>
+                              <div class="form-group col-md-6">
+                                  <label for="email">Email adresa</label>
+                                  <input type="email" class="form-control w-100" id="email" placeholder="Unesite e-mail adresu">
+                              </div>
+                          </div>
+                          <div class="form-group m-4">
+                              <label for="message">Poruka</label>
+                              <textarea class="form-control w-100" id="message" rows="4" placeholder="Unesite poruku"></textarea>
+                          </div>
+                          <div class="d-flex justify-content-center m-4">
+                              <button type="submit" class="btn btn-primary m-1 w-100">Pošalji</button>
+                          </div>
+                      </form>
+                  </div>
               </div>
+
           </div>
-          <div class="col-md-12">
-              <form>
-                  <div class="row text-center m-4">
-                      <div class="form-group col-md-6">
-                          <label for="name">Ime i prezime</label>
-                          <input type="text" class="form-control w-100" id="name" placeholder="Unesite ime i prezime">
-                      </div>
-                      <div class="form-group col-md-6">
-                          <label for="email">Email adresa</label>
-                          <input type="email" class="form-control w-100" id="email" placeholder="Unesite e-mail adresu">
-                      </div>
-                  </div>
-                  <div class="form-group m-4">
-                      <label for="message">Poruka</label>
-                      <textarea class="form-control w-100" id="message" rows="4" placeholder="Unesite poruku"></textarea>
-                  </div>
-                  <div class="d-flex justify-content-center m-4">
-                      <button type="submit" class="btn btn-primary m-1 w-100">Pošalji</button>
-                  </div>
-              </form>
-          </div>
+         
       </section>
     </main>
 
@@ -146,9 +148,8 @@
             <div class="col-md-4 col-sm-2">
             </div>
         </div>
-        <hr class="m-0">
-        <div class="container-fluid py-4 d-flex justify-content-between align-items-center">
-            <p class="m-0 px-2">Copyright &copy; 2023</p>
+        <div class="container-fluid py-4 d-flex justify-content-between align-items-center border-top">
+            <p class="m-0 px-2">Copyright &copy; 2024</p>
             <div class="social-icons">
                 <a href="#" class="px-1 text-dark"><i class="fa fa-instagram icon-lg"></i></a>
                 <a href="#" class="px-1 text-dark"><i class="fa fa-facebook icon-lg"></i></a>
